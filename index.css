@@ -1,0 +1,303 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 20px;
+    background-color: gainsboro;
+    padding: 20px 10px;
+}
+i{
+    padding: 5px;
+    border-radius: 5px;
+}
+i:hover{
+    background-color: darkgray;
+}
+.topbar .left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15%;
+    background-color: white;
+    padding: 35px 10px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.topbar .left .subleft i{
+    margin-right: 10px;
+    padding: 10px;
+}
+.topbar .left .subleft .tab{
+    margin-left: -10px;
+}
+
+.topbar .left .subleft span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+}
+.topbar #plus{
+    position: relative;
+    right: 37rem;
+    font-weight: 300;
+}
+.topbar .right{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topbar .right i{
+    font-size: 1rem;
+    color: gray;
+}
+.topbar .right .down{
+    font-size: 1.3rem;
+}
+.topbar .right .clone{
+    transform: rotate(90deg);
+}
+.topbar .right .close:hover{
+    background-color: red;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    margin-top: 0.4rem;
+}
+.searchbar .icon{
+    width: 8rem;
+    display: flex;
+    justify-content: space-around;
+}
+.searchbar .icon i{
+    font-size: 1.1rem;
+    color: gray;
+    margin-right: 0px;
+}
+.searchbar .main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.searchbar .main .search{
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50px;
+    background-color: rgba(0,0,0,0.1);
+}
+.searchbar .main .search input{
+    width: 90%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    position: relative;
+    right: 1rem;
+    
+}
+.searchbar .main .search:hover{
+    background-color: darkgray;
+}
+.searchbar .main .main-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 8%;
+}
+.searchbar .main .main-right .name{
+    width: 30px;
+    height: 30px;
+    background-color: brown;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.searchbar .main .main-right .window{
+    transform: rotate(90deg);
+}
+.topbar3{
+    width: 100%;
+    margin-top: 10px;
+}
+.topbar3 .sub{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 50px;
+}
+.topbar3 .sub2{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 50px;
+
+}
+.topbar3 .sub i{
+    font-size: 1.1rem;
+    margin-right: 5px;
+}
+.topbar3 .sub span{
+    font-size: 1.1rem;
+    margin-right: 0px;
+    color: gray;
+}
+ .line{
+    width: 100%;
+    height: 1px;
+    background-color: lightgray;
+    margin-top: 10px;
+}
+.topbar3 .sub:hover{
+    background-color: darkgray;
+}
+.topbar3 .sub2:hover{
+    background-color: darkgray;
+}
+.topbar3 .sub2 i{
+  font-size: 1.2rem;
+  margin-right: 5px;
+}
+/*
+.apps{
+    float: right;
+    margin-top: 15px;
+}
+.apps .cover{
+    margin-right: 5px;
+}
+.apps .cover a,i,span{
+    margin-right: 20px;
+    font-size: 1.1rem;
+}
+.apps .cover a{
+    text-decoration: none;
+    color: black;
+}
+.apps .cover a:hover{
+    text-decoration: underline;
+}
+.apps .cover i{
+    font-size: 1.1rem;
+}
+.apps .cover .name2{
+    width: 20px;
+    height: 20px;
+    background-color: brown;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: white;
+}
+*/
+.secondSearch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.secondSearch .img{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.secondSearch .img img{
+    width: 20%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.secondSearch .input{
+    width: 40%;
+    box-shadow: 0px 0px 10px gainsboro;
+    padding: 13px 10px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.secondSearch .input .search2{
+    margin-right: 0.7rem;
+}
+.secondSearch .input i{
+    font-size: 1.1rem;
+}
+.secondSearch .input input{
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 1.1rem;
+}
+.secondSearch .otherIcons{
+    padding: 10px 15px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.secondSearch .otherIcons:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+.secondSearch .otherIcons i{
+    background-color: gainsboro;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin-bottom: 13px;
+    margin-left: 1rem;
+   
+}
+.secondSearch .otherIcons p{
+    position: relative;
+    right: 0rem;
+}
+.secondSearch .footerLink{
+    text-decoration: none;
+    border: 1px solid gainsboro;
+    padding: 13px 8px;
+    border-radius: 30px;
+}
+.customize{
+    float: right;
+    margin-top: 100px;
+    box-shadow: 0px 5px 5px lightgray;
+    padding: 6px 0px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+.customize:hover{
+    background-color: rgba(0,0,0,0.02);
+}
+.customize i{
+    font-size: 1.1rem;
+    margin-left: 1rem;
+    color: blue;
+}
+.customize span{
+    color: blue;
+    font-size: 1rem;
+}
+
+
+
